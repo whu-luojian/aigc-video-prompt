@@ -1,10 +1,10 @@
 # AIGC Video Prompt Director（AIGC 视频提示词导演）
 
-基于"十层焚决"方法论的 AIGC 视频提示词生成 Skill，将模糊的视频创意逐层拆解为高质量、可执行的结构化分镜提示词。
+基于"十层焚决"方法论的 AIGC 视频提示词生成工具，将模糊的视频创意逐层拆解为高质量、可执行的结构化分镜提示词。
 
 ## 方法论来源
 
-本 Skill 的核心方法论提炼自 244 篇 AIGC 提示词教程和 1013 条提示词的深度分析，抽象为"十层焚决"体系。
+核心方法论提炼自 244 篇 AIGC 提示词教程和 1013 条提示词的深度分析，抽象为"十层焚决"体系。
 
 ## 十层焚决
 
@@ -44,20 +44,13 @@
 
 ## 使用方式
 
-### 在 Mira 中使用
-
-1. 将 `SKILL.md` 打包为 zip
-2. 通过 Mira Skill API 上传创建
-
-### 在其他 AI Agent 中使用
-
-将 `SKILL.md` 的内容作为 system prompt 或 instructions 使用即可。
+将 `SKILL.md` 的内容作为 AI Agent 的 system prompt 或 instructions 使用即可。
 
 ## 文件结构
 
 ```
 aigc-video-prompt/
-├── SKILL.md          # Skill 核心指令文件
+├── SKILL.md          # 核心指令文件（十层焚决完整方法论）
 ├── README.md         # 本文件
 ├── LICENSE           # MIT License
 └── .gitignore        # Git ignore rules
